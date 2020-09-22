@@ -8,10 +8,14 @@ const WorkoutSchema = new Schema({
     },
     exercises: [
         {
-          type: Schema.Types.ObjectId,
-          ref: "Exercise"
+            typeofE: String,
+            name: String,
+            duration: Number,
+            weight: Number,
+            reps: Number,
+            sets: Number
         }
-      ]
+    ],
 });
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
