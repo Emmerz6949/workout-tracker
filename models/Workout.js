@@ -11,6 +11,7 @@ const WorkoutSchema = new Schema({
             typeofE: String,
             name: String,
             duration: Number,
+            distance: Number,
             weight: Number,
             reps: Number,
             sets: Number
