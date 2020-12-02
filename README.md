@@ -4,6 +4,8 @@
 
 This repository was created so I could create the back-end of a workout tracker application via creating a Mongo database with a Mongoose schema and handling the routes with Express.
 
+![image](https://i.ibb.co/nfzTZvV/Workout-Tracker.png)
+
 You can use the commits to follow my journey.
 
 
